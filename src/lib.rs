@@ -20,7 +20,7 @@ mod geometry {
 
 mod map {
     mod map;
-    pub mod obstacles;
+    mod obstacles;
     mod gen_map;
 
     pub use map::Map;

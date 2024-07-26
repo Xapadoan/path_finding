@@ -20,6 +20,15 @@ pub fn gen_map() -> Map {
             Point::new(67, 23),
         ].to_vec()
     ));
+
+    map.add_obstacle(Obstacle::new(
+        [
+            Point::new(51, 9),
+            Point::new(48, 14),
+            Point::new(55, 11),
+        ].to_vec()
+    ));
+
     map.add_obstacle(Obstacle::new(
         [
             Point::new(44, 2),

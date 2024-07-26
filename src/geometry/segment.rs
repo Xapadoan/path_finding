@@ -3,7 +3,7 @@ use bresenham::Bresenham;
 use super::intersection::Intersection;
 use super::point::{CollectionOfPoints, Point};
 
-const DODGE_DISTANCE: u8 = 2;
+const DODGE_DISTANCE: u8 = 1;
 
 #[derive(Clone)]
 pub struct Segment<'p> {
