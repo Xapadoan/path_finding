@@ -1,0 +1,8 @@
+[package]
+name = "path_finding"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+colored = "2.1.0"
+bresenham = "0.1.1"
